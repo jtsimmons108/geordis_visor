@@ -17,7 +17,6 @@ if min(w, h) > 64:
     print(scale)
     print(img.size)
     img = img.resize((w//scale, h//scale))
-    img.save('/home/pi/Desktop/resize.jpg')
     w, h = img.size
 pix = img.load()
 curr_x, curr_y = 0, 0
